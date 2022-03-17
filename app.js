@@ -1,7 +1,7 @@
 // Create server Express
 const express = require('express');
 const cors = require('cors');
-const { default: helmet } = require('helmet');
+const helmet = require('helmet');
 const compression = require('compression');
 const morgan = require('morgan');
 
